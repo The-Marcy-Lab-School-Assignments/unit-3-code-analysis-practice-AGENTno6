@@ -11,6 +11,10 @@ function forEach(arr, action) {
 
 forEach(['a', 'b', 'c'], console.log);
 ```
+The `forEach` function is initialized to accept two values, `arr` and `action`. In the second line of code, a for loop is used in order to iterate through the `arr` value. The loop will begin looping at index 0, will loop while the index value is less than the length of the `arr` and will increment as the loop executes. For each iteration, the action will be executed onto the value represented by the index of `arr`. In the last line of code, `forEach` is invoked and an array is passed as the first argument and `console.log` is passed as the value for the argument `action`.       
+
+
+
 
 **Guiding Questions:**
 * What does the code do (what does it print? are any variable reassigned? etc...)
